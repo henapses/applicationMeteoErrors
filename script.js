@@ -29,9 +29,7 @@ async function getWeatherData() {
   }
 }
 
-button.addEventListener("click", (e) => {
-  getWeatherData();
-});
+getWeatherData();
 
 const cityName = document.querySelector(".city-name");
 const countryName = document.querySelector(".country-name");
